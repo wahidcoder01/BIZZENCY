@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+:root{
+    --header-color:#0f3145;
+    --white--:#f6f7f8;
+    --ubontu-: "Ubuntu", sans-serif;
+    --black--:#222222;
+}
+
+/* home st */ 
+
+
+header{
+    background-color: #0f3145;
+    
+}
+header .row{
+    justify-content: space-between;
+}
+header .row span{
+  color: var(--white--);
+  font-size: 16px;
+  margin: 10px;
+  font-size: 400;
+  font-family: var(--ubontu-);
+}
+ /* nav st */
+nav .row{
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav .row ul li{
+    display: inline-block;
+}
+nav .row ul li a{
+    padding: 40px 19px;
+    display: inline-block;
+    font-family: var(--ubontu-);
+    text-transform: capitalize;
+     color: var(--black--);
+     font-weight: 400;
+
+
+}
+nav ul li:last-child a{
+    display: inline-block;
+    border: 1px solid var(--black--);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding:0 ;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+nav .row ul li a:hover{
+    background-color:#fff9e6 ;
+    color: #ffda62;
+}
+/* nav end */
+
+/* banner st */
+
+#banner .contains {
+  padding: 140px 0;
+  width: 480px;
+}
+
+#banner{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner .contains h4{
+    font-family: var(--ubontu-);
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+#banner .contains h2{
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#banner .contains h5{
+    font-family: var(--ubontu-);
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #8484bf;
+}
+#banner .contains p{
+    font-family: var(--ubontu-);
+    font-size: 14px;
+    font-weight: 400; 
+    padding: 10px 0;
+}
+#banner .banner_foot{
+    display: flex;
+    align-items: center;
+}
+#banner .banner_foot span{
+    padding-left: 20px;
+
+}
+#banner .banner_foot a{
+    background-color: #8484bf;
+    padding: 10px 10px;
+    border-radius: 5% ;
+    font-family: var(--ubontu-);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white--);
+}
+/* banner end */
+
+
+
+
+
+
+
+/* home end */
